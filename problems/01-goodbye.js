@@ -4,10 +4,14 @@ string saying bye to that name. See the examples below.
 */
 
 // Your code here 
+function goodbye(name) {
+    
+    return name
+}
 
-// console.log(goodbye("Daniel"));  // => "Bye Daniel."
-// console.log(goodbye("Mark"));    // => "Bye Mark."
-// console.log(goodbye("Beyonce")); // => "Bye Beyonce."
+console.log(goodbye("Daniel"));  // => "Bye Daniel."
+console.log(goodbye("Mark"));    // => "Bye Mark."
+console.log(goodbye("Beyonce")); // => "Bye Beyonce."
 
 /******************** DO NOT MODIFY ANY CODE BELOW THIS LINE *****************/
 module.exports = goodbye;

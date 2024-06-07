@@ -10,13 +10,14 @@ function repeatName(name) {
 
 // Your code here 
 
-// let repeatDaniel;
-// let repeatMark;
-// let repeatBeyonce;
 
-// console.log(repeatDaniel);  // => "Daniel Daniel"
-// console.log(repeatMark);    // => "Mark Mark"
-// console.log(repeatBeyonce); // => "!!!Beyonce Beyonce!!!"
+let repeatDaniel = repeatName('Daniel');
+let repeatMark = repeatName('Mark');
+let repeatBeyonce = '!!!' + repeatName('Beyonce') + '!!!';
+
+console.log(repeatDaniel);  // => "Daniel Daniel"
+console.log(repeatMark);    // => "Mark Mark"
+console.log(repeatBeyonce); // => "!!!Beyonce Beyonce!!!"
 
 /******************** DO NOT MODIFY ANY CODE BELOW THIS LINE *****************/
 module.exports = repeatName;
